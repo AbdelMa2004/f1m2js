@@ -1,47 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
-    <title>F1m2JS</title>
+    <title>5 silver bullet Adventure</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="kopje">Museum Online Javascript</h1>
-    
-    <p id="mkBlauw"> maak achtergrond blauw</p>
-    <p id="mkGroen"> maak achtergrond groen</p>
-    
-    <script>
-       const kopje = document.getElementById("kopje");
-       const mkBlauw = document.getElementById("mkBlauw");
-       const mkGroen = document.getElementById("mkGroen");
-
-       kopje.style.backgroundColor = "red";
-
-       kopje.addEventListener('click', voeruitKopje);
-       mkBlauw.addEventListener('click', voeruitBlauw);
-       mkGroen.addEventListener('click', voeruitGroen);
-
-
-       function voeruitKopje(){
-           kopje.style.backgroundColor = "yellow";
-           kopje.style.color = "black";
-       }
-
-       function voeruitBlauw(){
-           document.body.style.backgroundColor = "blue";
-           document.body.style.color = "white";
-           kopje.style.backgroundColor = "white";
-           kopje.style.color = "black"; 
-       }
-
-       function voeruitGroen(){
-           document.body.style.backgroundColor = "green";
-       }
-    </script>
-
-    
+    <div id="container">
+        <h1> overzicht opdrachten F1M2JS</h1>
+        <ol>
+            <li>
+                
+                <a href="01-backgroundcolor">backgroundColor</a>
+            </li>
+            <li>
+                
+                <a href="">Boodschappen sorteren</a>
+            </li>
+            <li>
+                
+                <a href="03-tentoonstelling">tentoonstelling</a>
+            </li>
+            <li>
+                
+                <a href="">seizoenen</a>
+            </li>
+            <li>
+                
+                <a href="05-silver bullet adventure">SB Adventure</a>
+            </li>
+        </ol>
+    </div>
 </body>
 </html>
